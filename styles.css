@@ -155,6 +155,7 @@ h4 {
 
 i {
   background-image: linear-gradient(to bottom, green, red);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 25px;
 }
@@ -261,7 +262,7 @@ iframe {
   background-size: cover;
 }
 .layer1 {
-  background-image: url("../images/layered-waves-haikei.svg");
+  background-image: url("/public/layered-waves-haikei.svg");
 }
 .footer-shop-name,
 .phone-number,
