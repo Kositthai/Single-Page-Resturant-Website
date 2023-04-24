@@ -24,12 +24,14 @@ body {
   margin-bottom: 50px;
   width: 50%;
 }
+
 nav {
   position: fixed;
   width: 100%;
   background: honeydew;
   z-index: 20;
 }
+
 nav li {
   display: block;
   float: right;
@@ -41,9 +43,11 @@ nav li {
   font-size: 30px;
   cursor: pointer;
 }
+
 .li-about-us {
   color: darkseagreen;
 }
+
 li:hover {
   color: darkseagreen;
 }
@@ -71,6 +75,7 @@ h1 {
   color: burlywood;
   font-size: 35px;
 }
+
 button {
   background: transparent;
   border: floralwhite solid 2px;
@@ -79,6 +84,7 @@ button {
   color: #fdfafa;
   margin-top: 30px !important;
 }
+
 button:hover {
   transform: scale(1.1);
   transition: 0.2s;
@@ -89,30 +95,36 @@ button:hover {
   background: antiquewhite;
   padding: 20px 70px 20px 70px;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-gap: 2em;
 }
+
 .img-about-us1 img {
   max-width: 100%;
   border-radius: 5px;
 }
+
 .addition-img img {
   max-width: 100%;
   border-radius: 5px;
 }
+
 p {
   font-family: "Dongle", sans-serif;
   font-size: 25px;
   text-transform: capitalize;
   color: gray;
 }
+
 h2 {
   font-family: "DM Serif Display", serif;
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
 h3 {
   color: #b73838;
   letter-spacing: 2px;
@@ -139,11 +151,13 @@ h4 {
 .menu-content p {
   color: rgb(255, 245, 155);
 }
+
 .menu-content {
   margin: 50px 50px 50px 50px;
   text-align: center;
   position: relative;
 }
+
 .container-menu {
   box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
   margin: 40px;
@@ -159,9 +173,11 @@ i {
   -webkit-text-fill-color: transparent;
   font-size: 25px;
 }
+
 .spicyness-level {
   text-align: center;
 }
+
 h5 {
   color: #fffbfb;
   font-family: "DM Serif Display", serif;
@@ -194,6 +210,7 @@ h6 {
   flex-direction: row;
   padding: 50px 90px 0 90px;
 }
+
 h6:before,
 h6:after {
   content: "";
@@ -201,9 +218,11 @@ h6:after {
   border-bottom: 1px solid;
   margin: auto;
 }
+
 h6:before {
   margin-right: 10px;
 }
+
 h6:after {
   margin-left: 10px;
 }
@@ -231,24 +250,29 @@ article {
   color: #b73838;
   text-transform: capitalize;
 }
+
 .open-hour-content {
   display: flex;
   margin-top: 20px;
 }
+
 .open-time,
 .cycle-content,
 .bus-content {
   margin-left: 20px;
 }
+
 .cycle,
 .bus {
   display: flex;
 }
+
 .fa-clock,
 .fa-bicycle,
 .fa-bus {
   -webkit-text-fill-color: black;
 }
+
 iframe {
   max-width: 100%;
 }
@@ -261,24 +285,29 @@ iframe {
   background-position: bottom;
   background-size: cover;
 }
+
 .layer1 {
-  background-image: url("/public/layered-waves-haikei.svg");
+  background-image: url("./layered-waves-haikei.svg");
 }
+
 .footer-shop-name,
 .phone-number,
 .email-address {
   color: whitesmoke;
   text-align: center;
 }
+
 .contact-us {
   padding-top: 50px;
 }
+
 .phone,
 .email {
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
 .phone-number,
 .email-address {
   margin-left: 20px;
@@ -342,17 +371,21 @@ iframe {
   .container-menu {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 2 rem;
   }
+
   .grid-location {
     grid-template-columns: 1fr;
   }
+
   .location-content {
     text-align: left;
     margin-left: 90px;
   }
+
   iframe {
     margin: 20px 0 20px 0;
   }
@@ -362,11 +395,13 @@ iframe {
   .about-us {
     padding: 20px;
   }
+
   ul {
     display: flex;
     flex-direction: row-reverse;
     float: left;
   }
+  
   li {
     font-size: 20px !important;
     margin-left: 0px;
